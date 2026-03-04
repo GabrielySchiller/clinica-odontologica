@@ -5,7 +5,6 @@ import CardEquipe from "@/_components/CardEquipe";
 import Home from "@/_components/Home";
 import Diferenciais from "@/_components/Diferenciais";
 import Depoimentos from "@/_components/Depoimentos";
-import Carrousel from "@/_components/Carrousel";
 import Footer from "@/_components/Footer";
 
 
@@ -30,23 +29,39 @@ export default function Body() {
           
 
 
-      <section className=" flex justify-center  py-15 px-4 bg-[#88aebb] flex-wrap">
-            <Carrousel/>
+      <section id="servicos" className=" flex justify-center items-center flex-col  py-15 px-4 bg-[#88aebb] flex-wrap">
+           <div className="flex justify-center mb-10">
+            <h2 className="text-[1.8rem] font-bold text-white">Nossos serviços</h2>
+          </div>
+
+            <CardServicos/>
       </section>
           
     
 
 
-      <section className="bg-white w-full  px-4 lg:px-10 py-35 lg:flex gap-5 justify-center">
+      <section id="equipe" className="bg-[#f5f5f5] w-full  px-4 lg:px-10 py-25 flex gap-5 flex-col justify-center">
+          <div className="flex justify-center mb-10">
+            <h2 className="text-[2rem] font-bold text-[#88aebb]">Nossa equipe</h2>
+          </div>
+         
          <CardEquipe/>
+
        </section>
 
 
-       <section >
+       <section className="mt-20">
+        <div className="flex justify-center mb-10">
+            <h2 className="text-[2rem] font-bold text-[#88aebb]">Nossos Diferenciais</h2>
+          </div>
           <Diferenciais/>
        </section>
 
-       <section>
+      
+       <section className=" bg-[#88aebb] flex flex-col justify-center items-center">
+        <div className="flex justify-center mb-10">
+            <h2 className="text-[1.8rem] font-bold text-white">Depoimentos dos nossos clientes</h2>
+          </div>
         <Depoimentos/>
        </section>
 

@@ -15,9 +15,9 @@ export default function Header() {
             />
           </div>
 
-           <div className="text-white font-bold flex gap-6 md:pr-10">
-              <button className="hover:scale-[1.15] hover:border-b bottom-1 "> Serviços </button>
-              <button className="hover:scale-[1.15] hover:border-b bottom-1"> Equipe </button>
+           <div className="flex items-center text-white font-bold  gap-6 md:pr-10">
+              <a href='#servicos' className="hover:scale-[1.15] p-2 hover:border-b bottom-1 "> Serviços </a>
+              <a href='#equipe' className="hover:scale-[1.15] p-2 hover:border-b bottom-1  "> Equipe </a>
               <a href="https://wa.me/" target="blank" className='text-black hover:text-white bg-white hover:bg-[#3a5a65] px-3 py-2 rounded-md'> WhatsApp </a>
            </div>
       </header>

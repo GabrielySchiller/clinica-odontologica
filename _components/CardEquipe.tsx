@@ -14,7 +14,7 @@ export default function CardEquipe(){
 
     <div className='w-full flex grip grid-cols-2 gap-5 flex-col justify-center items-center'>
      
-     <div className='flex gap-5 flex-wrap justify-center items-center'>
+     <div className='flex gap-5 flex-wrap justify-center items-center' data-aos="fade-down">
       {membrosVisiveis.map((membro, index) =>(
        
        <div key={index} className='bg-[#597f8b] md:w-55 shadow-md w-40  rounded-md mb-10 relative lg:h-60 text-white px-5 py-5 flex flex-col items-center justify-center gap-3'>

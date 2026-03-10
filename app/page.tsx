@@ -8,6 +8,7 @@ import Depoimentos from "@/_components/Depoimentos";
 import Footer from "@/_components/Footer";
 
 
+
 export default function Body() {
   return (
     <div className="bg-white h-full w-full">
@@ -60,7 +61,7 @@ export default function Body() {
       
        <section className=" bg-[#88aebb] flex flex-col justify-center items-center">
         <div className="flex justify-center mb-10">
-            <h2 className="text-[1.8rem] font-bold text-white">Depoimentos dos nossos clientes</h2>
+            <h2 className="text-[1.8rem] font-bold text-white">Depoimentos dos nossos pacientes</h2>
           </div>
         <Depoimentos/>
        </section>

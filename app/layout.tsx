@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Logo from "../public/logo.png"
+import {AosInit} from '../_components/AosInit'
 
 
 export const metadata: Metadata = {
@@ -21,6 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
+        <AosInit/>
       </body>
     </html>
   );

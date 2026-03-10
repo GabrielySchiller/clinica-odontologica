@@ -26,20 +26,17 @@ export default function CardServicos() {
 
  
   const proximo = () =>{
-    setIndexAtual((prev) => 
-      (prev + cardsPorVez) % total)
+    setIndexAtual((prev) =>  (prev + cardsPorVez) % total)
   }
 
   const anterior = () =>{
-    setCardsPorVez((prev) => (
-      prev - cardsPorVez + total
-    ) % total)
+    setIndexAtual((prev) => ( prev - cardsPorVez + total ) % total)
   }
 
   const servicosVisiveis = Array.from({length: cardsPorVez}, (_, i) => services[(indexAtual + i) % total])
 
   return (
-    <div className=" items-center gap-5 flex justify-center">
+    <div data-aos="fade-left" className=" items-center gap-5 flex justify-center">
        
        <div>
         <button className='outline-none focus:ring-2 focus:ring-[#88aebb]' onClick={anterior}>
@@ -48,16 +45,16 @@ export default function CardServicos() {
        </div>
 
 
-      <div className='flex gap-5 justify-center items-center'>
+      <div className='flex gap-5 justify-center items-center '>
        {servicosVisiveis.map((service, index) =>(
-           <div className='bg-white flex flex-col items-center shadow-md w-50  justify-center rounded-md lg:w-56' key={index}>
+           <div className='bg-white flex flex-col items-center shadow-md w-52  justify-center rounded-md lg:w-56' key={index}>
                <div>
                 <img width={170} height={170} src={service.img} />
                </div>
             
-               <div className='text-center mb-10'>
+               <div className='text-center h-26 mb-10'>
                    <h3 className='font-semibold' >{service.title}</h3>
-                   <p className='text-[0.9rem] text-center mx-2 mt-3'>{service.description}</p>
+                   <p className='text-[0.92rem] text-center mx-3 mt-3'>{service.description}</p>
                </div>
            </div>
        ))}

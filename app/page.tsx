@@ -1,10 +1,10 @@
-import Image from "next/image";
+
 import Header from "@/_components/Header";
 import CardServicos from "@/_components/CardServicos";
 import CardEquipe from "@/_components/CardEquipe";
 import Home from "@/_components/Home";
 import Diferenciais from "@/_components/Diferenciais";
-import Depoimentos from "@/_components/Depoimentos";
+import CardDepoimentos from "@/_components/CardDepoimentos";
 import Footer from "@/_components/Footer";
 
 
@@ -59,16 +59,16 @@ export default function Body() {
        </section>
 
       
-       <section className=" bg-[#88aebb] flex flex-col justify-center items-center">
+       <section className=" bg-[#88aebb] pt-10 pb-10 flex flex-col justify-center items-center">
         <div className="flex justify-center mb-10">
-            <h2 className="text-[1.8rem] font-bold text-white">Depoimentos dos nossos pacientes</h2>
+            <h2 className="md:text-[1.8rem] text-[1.4rem] font-bold text-white">Depoimentos dos nossos pacientes</h2>
           </div>
-        <Depoimentos/>
+        <CardDepoimentos/>
        </section>
 
 
 
-      <footer className="bg-[#597f8b] text-white flex items-center flex-col justify-center py-4">
+      <footer className="bg-[#40616b] text-white flex items-center flex-col justify-center py-4">
          <Footer/>
       </footer>
     </div>

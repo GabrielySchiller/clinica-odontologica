@@ -18,7 +18,7 @@ export default function Body() {
 
       
       
-       <section className="w-full flex justify-center md:justify-between items-center bg-left  bg-cover md:bg-center h-130 " 
+       <section className="w-full  flex justify-center md:justify-between items-center bg-left  bg-cover md:bg-center h-130 " 
           style={{
             backgroundImage: "url('https://ik.imagekit.io/gabrielySchiller/Clinica%20ondontologica/home41.png') ",
            }}>

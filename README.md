@@ -1,9 +1,10 @@
 # 🦷 Clínica Odontológica | Website Profissional
 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Status](https://img.shields.io/badge/status-Concluido-green)
 ![Next.js](https://img.shields.io/badge/Next.js-14-black)
 ![React](https://img.shields.io/badge/React-✓-blue)
 ![Tailwind](https://img.shields.io/badge/TailwindCSS-✓-38B2AC)
+![TypeScript](https://img.shields.io/badge/TypeScript-✓-3178C6)
 
 ---
 

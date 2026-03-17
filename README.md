@@ -16,10 +16,9 @@
 
 ## 📸 Preview
 
-> *Adicione aqui um print do seu projeto depois 👇*
 
 ```id="preview"
-![Preview do projeto](./public/preview.png)
+(./public/preview.png)
 ```
 
 ---

@@ -66,6 +66,14 @@ export default function CardServicos() {
                <div className='p-1'>
                 <img className='rounded-full' width={80} height={80} src={testimony.img} />
                </div>
+
+               <div className='flex mt-4'>
+                  <img className='w-5' src="https://ik.imagekit.io/gabrielySchiller/Clinica%20ondontologica/icons8-estrela-96.png" alt="" />
+                  <img className='w-5' src="https://ik.imagekit.io/gabrielySchiller/Clinica%20ondontologica/icons8-estrela-96.png" alt="" />
+                  <img className='w-5' src="https://ik.imagekit.io/gabrielySchiller/Clinica%20ondontologica/icons8-estrela-96.png" alt="" />
+                  <img className='w-5' src="https://ik.imagekit.io/gabrielySchiller/Clinica%20ondontologica/icons8-estrela-96.png" alt="" />
+                  <img className='w-5' src="https://ik.imagekit.io/gabrielySchiller/Clinica%20ondontologica/icons8-estrela-96.png" alt="" />
+               </div>
             
                <div className='text-center mt-3 h-20 mb-9'>
                    <p className='text-[0.92rem] text-center h-19 mx-3 mt-2'>{testimony.depoimento}</p>

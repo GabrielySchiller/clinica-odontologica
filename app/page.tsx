@@ -21,11 +21,10 @@ export default function Body() {
        <section className="w-full flex justify-center md:justify-between items-center bg-left  bg-cover md:bg-center h-130 " 
           style={{
             backgroundImage: "url('https://ik.imagekit.io/gabrielySchiller/Clinica%20ondontologica/home41.png') ",
-           }} 
-        >
-        
+           }}>
           <Home/>
       </section>
+        
           
           
 
@@ -51,20 +50,21 @@ export default function Body() {
        </section>
 
 
-       <section className="mt-20">
+       
+      <section className="mt-25 pb-18">
         <div className="flex justify-center mb-10">
             <h2 className="text-[2rem] font-bold text-[#88aebb]">Nossos Diferenciais</h2>
           </div>
           <Diferenciais/>
-       </section>
+      </section>
 
       
-       <section className=" bg-[#88aebb] pt-10 pb-10 flex flex-col justify-center items-center">
+      <section className=" bg-[#88aebb] pt-10 pb-20 flex flex-col justify-center items-center">
         <div className="flex justify-center mb-10">
-            <h2 className="md:text-[1.8rem] text-[1.4rem] font-bold text-white">Depoimentos dos nossos pacientes</h2>
+            <h2 className="md:text-[1.8rem] text-[1.4rem] font-bold text-white">Depoimentos dos <br className="block lg:hidden"/> nossos pacientes</h2>
           </div>
         <CardDepoimentos/>
-       </section>
+      </section>
 
 
 
